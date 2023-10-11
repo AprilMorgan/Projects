@@ -1,5 +1,5 @@
 body {
-  background-color: blue;
+  background-color: aliceblue;
 }
 
 .container {
@@ -7,4 +7,16 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+.card {
+  width: 500px;
+  height: 500px;
+  background-color: blue;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
 }
