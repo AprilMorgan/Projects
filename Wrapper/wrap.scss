@@ -1,0 +1,45 @@
+body {
+  background-color: yellow;
+  margin: auto;
+}
+
+h1 {
+  font-family: cursive;
+  text-align: center;
+  font-size: 30px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.color.wrapper {
+  order: 1;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+.date.wrapper {
+  order: 2;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+.wrapper {
+  margin-bottom: 2rem;
+}
+
+label {
+  margin-left: 0.2rem;
+}
+
+.date {
+  color: blue;
+}
+
+.color {
+  color: red;
+}
