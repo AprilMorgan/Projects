@@ -9,7 +9,7 @@ function draw() {
   clear();
 
   for (let i = 0; i < stars.length; i++) {
-    let star = stars(i);
+    let star = stars[i];
     star.update();
     star.display();
   }
@@ -33,7 +33,7 @@ class Star {
   }
 
   update() {
-    this.x += con(this.angle) * this.speed;
+    this.x += cos(this.angle) * this.speed;
     this.y += sin(this.angle) * this.speed;
     this.alpha -= 5;
 
@@ -47,7 +47,7 @@ class Star {
     push();
     translate(this.x, this.y);
     rotate(frameCount * 0.02);
-    star(0, 0, this.radius * 2, this.radius, 5);
+    star(0, 0, this.radius * 2, this.radius, 5); // change the multiplier here to change the star radius, or change the last number to modify the number of points
     pop();
   }
 }
