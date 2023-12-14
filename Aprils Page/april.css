@@ -1,0 +1,15 @@
+.body-theme {
+  --unit-100vh: 470px;
+}
+
+html {
+  font-family: var(--font-primary);
+  font-size: 16px;
+  font-weight: 500;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+}
+
+.span {
+  --duration: 1000ms;
+}
