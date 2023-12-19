@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+  background-color: yellow;
+}
+
+header {
+  font-family: cursive;
+  font-size: 30px;
+}
+
+.container {
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+}
+
+.box {
+  outline-style: solid;
+  margin: 10px;
+  padding: 15px;
+}
+
+.boxImage {
+  width: 200;
+  background-color: #20f5c8;
+  flex-grow: 1;
+}
+
+img {
+  content: flex;
+}
+
+.boxForm {
+  width: 200;
+  background-color: #20f5c8;
+  font-size: 30px;
+  flex-grow: 1;
+}
+
+p {
+  font-size: 10px;
+}
+
+input {
+  margin: 5px;
+}
